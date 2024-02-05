@@ -1,9 +1,9 @@
-'''fileref = open("olympics.txt", "r") # to make full dir use open (../x location/y location / ... / .txt ,  )
+fileref = open("olympics.txt", "r") # to make full dir use open (../x location/y location / ... / .txt ,  )
 contents = fileref.read() 
 print (contents [ :100]) # read and print the first 100 
 contents_2 = fileref.readline() 
 print(contents_2 [ :4]) #print first 4 lines and they ending ith /n , using for loo pwill elemnte this and make each line in a new line 
-fileref.close()'''
+fileref.close()
 #********************************
 file_obj = open (r"C:\Users\mahdi\OneDrive\Desktop\python course 2\Python-Course-2\square.txt" , "w" ) 
 for number in range (13) : 
