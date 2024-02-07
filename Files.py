@@ -22,3 +22,4 @@ with open (frame ,'w') as md :
        md.write(str(num))
        md.write('\n')
 #********************************
+       #summrizing most of used could be split or len or for loop to write for var 
