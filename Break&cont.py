@@ -15,3 +15,12 @@ while x < 10:
         x += 5
     x += 1
 print("Done with our loop! X has the value: " + str(x))
+
+
+#infinte loop
+b = 15
+
+while b < 60:
+    b = 5    # resit the value of b to 5 each time the loop runs 
+    print("Bugs")
+    b = b + 7 
