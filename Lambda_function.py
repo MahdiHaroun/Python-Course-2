@@ -1,7 +1,7 @@
 def func(args): 
-    return ret_val
+    return args+1 
 #is equivalent to
-func = lambda args: ret_val 
+func = lambda args: args+1
 #***************************
 def f(x):
     return x - 1
