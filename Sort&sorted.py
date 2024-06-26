@@ -20,4 +20,5 @@ L2.sort()
 print(L2)
 print(L2.sort())  #return value is None 
 #********************************************** 
- 
+L2 = ["Cherry", "Apple", "Blueberry"]
+print(sorted(L2, reverse=True)) 
